@@ -1,0 +1,23 @@
+@url = https://8080-estefanifel-sw2bapiatua-j43aeu8cawp.ws-us116.gitpod.io 
+
+###
+GET {{url}}/pessoas
+
+###
+POST {{url}}/pessoas
+Content-Type: application/json
+
+{
+    "nome": "Estefani",
+    "idade": 17
+}
+###
+PUT  {{url}}/pessoas/2
+Content-Type: application/json
+
+{
+    "nome": "Estefani",
+    "idade": 17
+}
+###
+DELETE {{url}}/pessoas/2 
